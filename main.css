@@ -42,7 +42,7 @@ container {
   .main-ctn {
     width: 360px;
     height: 575px;
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
     border-radius: 15px;
     text-align: center;
     padding: 15px;
@@ -83,7 +83,7 @@ container {
 
 #tg-line {
   font-size: 10px;
-  margin: 15px 0 40px 0;
+  margin: 15px 0 50px 0;
 }
 
 .social-buttons {
@@ -98,12 +98,12 @@ container {
 button {
   font-size: 15px;
   width: 200px;
-  height: 60px;
+  height: 50px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 20%);
-  padding: 4px;
+  padding: 7px;
   margin-bottom: 1rem;
-  border-radius: 5px;
+  border-radius: 7px;
   box-shadow: none;
 }
 
