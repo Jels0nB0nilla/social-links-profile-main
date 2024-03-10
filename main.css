@@ -29,13 +29,30 @@ container {
 }
 
 .main-ctn {
-  width: 280px;
-  height: 485px;
+  width: 300px;
+  height: 500px;
   color: #fff;
   border-radius: 15px;
   text-align: center;
   padding: 15px;
-  background-color: #1f1f1f;
+  background-color: hsl(0, 0%, 20%);
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .main-ctn {
+    width: 360px;
+    height: 575px;
+    color: hsl(0, 0%, 100%)
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 12%);
+  }
+
+  container {
+    position: absolute;
+    top: 16%;
+  }
 }
 
 .main-ctn .img-box {
@@ -66,7 +83,7 @@ container {
 
 #tg-line {
   font-size: 10px;
-  margin: 15px 0 35px 0;
+  margin: 15px 0 40px 0;
 }
 
 .social-buttons {
@@ -81,9 +98,9 @@ container {
 button {
   font-size: 15px;
   width: 200px;
-  height: 30px;
+  height: 60px;
   color: hsl(0, 0%, 100%);
-  background-color: #333;
+  background-color: hsl(0, 0%, 20%);
   padding: 4px;
   margin-bottom: 1rem;
   border-radius: 5px;
@@ -96,4 +113,9 @@ button {
 .btn4,
 .btn5 {
   cursor: pointer;
+}
+
+button:hover {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(75, 94%, 57%);
 }
