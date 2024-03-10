@@ -6,11 +6,11 @@
 
 html,
 body {
-  /* font-family: [Inter](https://fonts.google.com/specimen/Inter); */
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
-  font-size: 15px;
-  font-weight: 400, 700;
+  font-weight: 400, 600, 700;
   font-style: normal;
+  font-variation-settings: 'slnt' 0;
   background-color: hsl(0, 0%, 8%);
 }
 
@@ -20,7 +20,7 @@ p {
 
 container {
   position: absolute;
-  top: 15%;
+  top: 9%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,7 +30,7 @@ container {
 
 .main-ctn {
   width: 280px;
-  height: 440px;
+  height: 485px;
   color: #fff;
   border-radius: 15px;
   text-align: center;
@@ -47,6 +47,7 @@ container {
 }
 
 .grn-adr {
+  font-size: 12px;
   color: hsl(75, 94%, 57%);
 }
 
@@ -63,19 +64,36 @@ container {
   margin-top: 10px;
 }
 
+#tg-line {
+  font-size: 10px;
+  margin: 15px 0 35px 0;
+}
+
 .social-buttons {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-height: 210px;
 }
 
 button {
+  font-size: 15px;
   width: 200px;
   height: 30px;
   color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 20%);
+  background-color: #333;
+  padding: 4px;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+  cursor: pointer;
 }
