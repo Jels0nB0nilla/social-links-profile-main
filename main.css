@@ -14,79 +14,101 @@ body {
   background-color: hsl(0, 0%, 8%);
 }
 
-p {
-  font-size: 14px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-container {
-  position: absolute;
-  top: 9%;
+.col-12 {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
-  height: auto;
+  /* padding: 15px; */
+  /* background-color: hsl(0, 0%, 20%); */
 }
 
-.main-ctn {
-  width: 300px;
-  height: 500px;
+@media (max-width: 500px) {
+  .col-12 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.column {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   color: #fff;
+  /* background-color: yellow; */
+  background-color: hsl(0, 0%, 20%);
   border-radius: 15px;
   text-align: center;
-  padding: 15px;
-  background-color: hsl(0, 0%, 20%);
+  /* flex-wrap: wrap; */
+  margin: 0; /* Adjust margin based on your preferences */
 }
 
-@media only screen and (min-width: 327px) and (max-width: 579px) {
-  container {
-    position: absolute;
-    top: 16%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .main-ctn {
-    height: 575px;
-    color: hsl(0, 0%, 100%);
-    border-radius: 15px;
-    text-align: center;
-    background-color: hsl(0, 0%, 12%);
-  }
+[class^='col-'] {
+  box-sizing: border-box;
+  padding: 0 10px; /* Adjust padding based on your preferences */
 }
 
-.main-ctn .img-box {
+.col-12 .profile-pic {
+  border: solid 10px hsl(0, 0%, 20%);
+  /* border: solid 10px yellow; */
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
+  width: 88px;
+  height: 88px;
+  margin: 10px auto 0;
   overflow: hidden;
 }
 
-.grn-adr {
+.name-location {
+  width: 279px;
+  height: 69px;
+}
+
+.bio {
+  width: 279px;
+  height: 21px;
+}
+
+.col-12 .grn-adr {
   font-size: 12px;
   color: hsl(75, 94%, 57%);
 }
 
-.main-ctn img {
+.col-12 img {
   width: 100%;
 }
 
-.main-ctn h1 {
+.col-12 h1 {
   margin-top: 10px;
   font-size: 20px;
 }
 
-.main-ctn p {
+.col-12 p {
   margin-top: 10px;
 }
 
-#tg-line {
+.col-12 #tg-line {
   font-size: 10px;
-  margin: 15px 0 50px 0;
+  margin: 15px 0 0 0;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-3 {
+  width: 33.3333%;
 }
 
 .social-buttons {
@@ -95,7 +117,7 @@ container {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-height: 210px;
+  margin-top: 1rem;
 }
 
 button {

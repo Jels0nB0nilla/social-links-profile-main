@@ -1,5 +1,6 @@
 design/
 *.pdf
-README-template.md
 *.fig
+*.txt
+README-template.md
 style-guide.md
