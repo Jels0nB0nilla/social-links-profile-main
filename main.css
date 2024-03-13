@@ -90,7 +90,7 @@ h4 {
   align-items: center;
   width: 327px;
   height: 579px;
-  margin: 30% 0 0 4.5%;
+  margin-left: 4.5%;
   padding: 15px;
   border-radius: 15px;
   background: var(--grey);
