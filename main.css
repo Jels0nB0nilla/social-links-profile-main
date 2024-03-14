@@ -98,7 +98,6 @@ h4 {
   width: 20.438rem;
   height: 36.188rem;
   padding: 15px;
-  border-radius: 15px;
   background: var(--grey);
 }
 
@@ -106,12 +105,12 @@ h4 {
   width: 88px;
   height: 88px;
   border: solid 9px var(--grey);
-  border-radius: 50%;
   margin-top: 10px;
 }
 
 .profile-pic img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .card .name-location {
