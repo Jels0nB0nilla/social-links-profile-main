@@ -75,7 +75,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 327px 1fr;
   grid-template-areas: '. content .';
-  /* place-items: center center; */
 }
 
 .card {
@@ -84,17 +83,17 @@ h4 {
   flex-direction: column;
   align-items: center;
   width: 327px;
-  height: 527px;
+  height: 529px;
   margin: auto 0;
   padding: 15px;
-  border-radius: 10px;
-  background: var(--grey);
+  border-radius: 13px;
+  background: var(--dark-grey);
 }
 
 .card .profile-pic {
   width: 88px;
   height: 88px;
-  border: solid 9px var(--grey);
+  border: solid 9px var(--dark-grey);
   margin-top: 10px;
 }
 
@@ -143,22 +142,22 @@ h4 {
 }
 
 .links button {
-  font-size: 14px;
-  width: 200px;
-  height: 40px;
+  font-size: 15px;
+  width: 279px;
+  height: 45px;
   color: var(--white);
-  background-color: var(--off-black);
-  padding: 7px 0;
-  margin-bottom: 1rem;
+  background-color: var(--grey);
   border: none;
   border-radius: 7px;
 }
 
-.links .btn1,
-.links .btn2,
-.links .btn3,
-.links .btn4,
-.links .btn5 {
+.links a {
+  width: 279px;
+  height: 44px;
+  margin-bottom: 15px;
+}
+
+.links button {
   cursor: pointer;
 }
 
@@ -167,8 +166,25 @@ button:hover {
   background: var(--green);
 }
 
-/* @media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .card {
-    margin: 2%;
+    width: 384px;
+    height: 611px;
   }
-} */
+
+  .card .name-location {
+    width: 304px;
+  }
+
+  .card .bio {
+    width: 304px;
+  }
+
+  .links {
+    width: 304px;
+  }
+
+  .links a {
+    width: 304px;
+  }
+}
