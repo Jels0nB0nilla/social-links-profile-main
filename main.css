@@ -30,7 +30,7 @@ li {
 html,
 body {
   background: var(--off-black);
-  overflow-x: hidden;
+  overflow: visible;
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400, 600, 700;
@@ -71,24 +71,17 @@ h4 {
 /* mobile styles */
 .grid {
   display: grid;
-  grid-template-columns: 1fr 23.438rem 1fr;
+  place-items: center center;
 }
 
 .main {
-  grid-column: 2/3;
-  /* grid-row: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 23.438rem;
   height: 50.75rem;
-  padding: 20% 0 0 0;
 }
-
-/* .main::-webkit-scrollbar {
-  display: none;
-} */
 
 .card {
   display: flex;
@@ -176,21 +169,3 @@ button:hover {
   color: var(--off-black);
   background: var(--green);
 }
-
-/* @media screen and (min-width: 720px) {
-  .main {
-    padding-top: 10%;
-  }
-}
-
-@media screen and (orientation: landscape) and (min-width: 720px) {
-  .main {
-    padding-top: 5%;
-  }
-} */
-
-/* @media screen and (min-width: 1200px) {
-  .main {
-    padding-top: 0;
-  }
-} */
