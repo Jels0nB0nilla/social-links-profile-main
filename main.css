@@ -38,6 +38,10 @@ body {
   font-variation-settings: 'slnt' 0;
 }
 
+-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 h3,
