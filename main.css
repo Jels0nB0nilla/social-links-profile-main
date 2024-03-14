@@ -30,7 +30,7 @@ li {
 html,
 body {
   background: var(--dark-grey);
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400, 600, 700;
