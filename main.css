@@ -189,7 +189,6 @@ button:hover {
   }
 }
 
-/* desktop styles */
 @media screen and (min-width: 1200px) {
   .main {
     padding: 5% 0 0 0;
