@@ -177,17 +177,17 @@ button:hover {
   background: var(--green);
 }
 
-@media screen and (min-width: 620px) {
+/* @media screen and (min-width: 720px) {
   .main {
     padding-top: 10%;
   }
 }
 
-@media screen and (orientation: landscape) and (min-width: 620px) {
+@media screen and (orientation: landscape) and (min-width: 720px) {
   .main {
     padding-top: 5%;
   }
-}
+} */
 
 /* @media screen and (min-width: 1200px) {
   .main {
