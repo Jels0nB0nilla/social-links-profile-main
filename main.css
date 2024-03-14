@@ -71,7 +71,7 @@ h4 {
 /* mobile styles */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 375px 1fr;
   gap: 5px;
 }
 
