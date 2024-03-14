@@ -179,18 +179,18 @@ button:hover {
 
 @media screen and (min-width: 620px) {
   .main {
-    padding: 45% 0 0 0;
+    padding-top: 45%;
   }
 }
 
 @media screen and (orientation: landscape) and (min-width: 620px) {
   .main {
-    padding: 20% 0 0 0;
+    padding-top: 20%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main {
-    padding: 5% 0 0 0;
+    padding-top: 0;
   }
 }
