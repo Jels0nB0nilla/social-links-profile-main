@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: [https://jelson-social-links-profile-main.netlify.app/]
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-card-using-flexbox-and-css-grid-Ax9zzhUQY7]
+- Live Site URL: [https://jels0nb0nilla.github.io/social-links-profile-main/]
 
 ## My process
 
