@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![./screenshot.JPG]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://jelson-social-links-profile-main.netlify.app/)
+- Solution URL: []
+- Live Site URL: [https://jelson-social-links-profile-main.netlify.app/]
 
 ## My process
 
