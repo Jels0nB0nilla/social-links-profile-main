@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![<img src="/screenshot.JPG" >]
+<img src="/screenshot.JPG" width="147px" height="292px">
 
 ### Links
 
