@@ -134,13 +134,17 @@ h4 {
 .links {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   width: 279px;
   height: 289px;
   margin-top: 1rem;
 }
 
-.links button {
+.links .btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
   font-size: 15px;
   width: 279px;
   height: 45px;
@@ -148,19 +152,17 @@ h4 {
   background-color: var(--grey);
   border: none;
   border-radius: 7px;
+  text-align: center;
+  line-height: 3rem;
 }
 
 .links a {
-  width: 279px;
+  width: 249px;
   height: 44px;
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;
 }
 
-.links button {
-  cursor: pointer;
-}
-
-button:hover {
+.links a:hover {
   color: var(--off-black);
   background: var(--green);
 }
@@ -192,6 +194,6 @@ button:hover {
 
   .links a {
     width: 304px;
-    margin-right: -22px;
+    /* margin-right: -22px; */
   }
 }
